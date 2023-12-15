@@ -32,6 +32,10 @@ amenity
     border-radius: 2em;
     border: 1px solid rgba(224, 224, 224, 0.05);
 }
+body [role="dialog"] [class*="roles__"] {
+    border-radius: 0;
+    border: none;
+}
 [role="dialog"] [class*="root"] [class*="footer__"] {
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
