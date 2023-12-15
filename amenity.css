@@ -32,11 +32,11 @@ amenity
     border-radius: 2em;
     border: 1px solid rgba(224, 224, 224, 0.05);
 }
-[role="dialog"] [class*="root"] [class*="footer"] {
+[role="dialog"] [class*="root"] [class*="footer__"] {
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
 }
-[role="dialog"] [class*="root"] [class*="header"] {
+[role="dialog"] [class*="root"] [class*="header__"] {
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
 }
