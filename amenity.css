@@ -203,6 +203,14 @@ body [class*="body"] [class="vc-uvs-modal-margin"] {
     padding: 0;
 }
 
+[class^="connectedAccountContainer__"] {
+    border-radius: 0.5em;
+}
+
+[class^="userProfileModalInner__"] [role="tablist"] [role="tab"] {
+    height: 2.5em;
+}
+
 /*channels in sidebar*/
 [role="listitem"] {
     border-radius: 1em;
