@@ -256,6 +256,7 @@ aside [class^="scroller"] {
 }
 aside[class^="membersWrap"]>div {
     border-top-left-radius: 0.75em;
+    min-height: 500em;
 }
 [aria-label="Members"] div[class^="member_"]>div {
     border-radius: 1em;
