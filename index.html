@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenity - a comfortable discord theme!</title>
+    <style>
+        body {
+            font-family: system-ui;
+            margin: 0;
+            padding: 0;
+            background: rgb(129,106,163);
+            background: linear-gradient(336deg, rgb(66, 51, 87) 5%, rgb(140, 111, 152) 46%, rgb(121, 167, 165) 100%); 
+        }
+        main {
+            color: white;
+        }
+        
+        header {
+            text-shadow: 0 0 5px rgba(30, 31, 34, 0.7);
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+        header>img {
+            max-width: 45%;
+            margin: 1em;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+
+        header a {
+            display: inline-block;
+            padding: 1.25em 1.75em;
+            border-radius: 2em;
+            background-color: rgb(88, 101, 242);
+            max-width: fit-content;
+        }
+        header a:hover {
+            color: inherit;
+            text-shadow: none;
+            background-color: rgb(66, 75, 180)
+        }
+
+        footer {
+            text-align: center;
+            padding: 3em;
+        }
+        h1,h3 {
+            font-weight: 900;
+        }
+        h1 {
+            font-size: 5em;
+            margin: 0.2em 0;
+        }
+        h3 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 3em;
+            margin: 0.2em 0;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            color: rgb(223, 223, 223);
+            transition: all 0.1s ease-out;
+        }
+        a:hover {
+            color: rgb(255, 151, 168);
+            text-shadow: 0 0 5px rgb(30, 31, 34);
+        }
+        img {
+            border-radius: 1em;
+        }
+
+        section {
+            background-color: rgb(30, 31, 34);
+            padding: 2em;
+        }
+        section>div {
+            background-color: rgba(49, 51, 56, 0.67);
+            padding: 1.75em;
+            border-radius: 1.25em;
+            max-width: 60em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 1em auto;
+        }
+        section>div>div {
+            margin-right: 3em;
+        }
+        section>div>img {
+            align-self: flex-end;
+            max-width: 65%;
+            box-shadow: 0 0 15px rgba(25, 26, 28, 0.67);
+            border: 1px solid rgba(128, 128, 128, 0.1);
+        }
+
+        .usage {
+            background-color: rgb(25, 19, 25);
+            text-align: center;
+            padding: 5em 1em;
+        }
+        code {
+            font-size: 2em;
+            border: 1px solid rgba(128, 128, 128, 0.1);
+            background-color: rgb(24, 24, 27);
+            padding: 0.5em;
+            margin: 1em auto;
+            display: block;
+            max-width: 30em;
+            color: rgb(192, 192, 192);
+            user-select: all;
+        }
+
+        @media only screen and (max-width: 950px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                margin: 2em;
+            }
+            header img {
+                margin: 1em;
+                max-width: 90%;
+            }
+
+            section>div {
+                flex-direction: column;
+                text-align: center;
+            }
+            section>div>div {
+                margin-right: 0;
+            }
+            section>div>img {
+                align-self: center;
+                max-width: 95%;
+                margin: 1em;
+            }
+            .usage img {
+                max-width: 80%;
+            }
+            code {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <h1>Amenity</h1>
+                <p>Making Discord more <strong>comfortable</strong> with theming.</p>
+                <a href="#usage">Get Started</a>
+            </div>
+            <img src="repo/2023-12-15screen1.png" alt="Screenshot">
+        </header>
+
+        <section>
+            <div>
+                <div>
+                    <h3>More rounding, more padding, more comfort</h3>
+                    <p>Adding to where it matters and keeping the original feel</p>
+                </div>
+                <img src="repo/1.png" alt="Screenshot">
+            </div>
+            <div>
+                <div>
+                    <h3>Intuitive design changes</h3>
+                    <p>A few choices made for you that you'll appreciate</p>
+                </div>
+                <img src="repo/2.png" alt="Screenshot">
+            </div>
+            <div>
+                <div>
+                    <h3>Reliably compatible</h3>
+                    <p>Mix and match, make it your own with other themes</p>
+                </div>
+                <img src="repo/3.png" alt="Screenshot">
+            </div>
+        </section>
+
+        <section class="usage">
+            <h2 id="usage">How to use?</h2>
+            <p>
+                You'll need a Discord client mod, like Vencord;
+                <br>
+                Here's a direct link to the theme and what to do with it.
+            </p>
+            <p>
+                <code>https://nuleftus.github.io/amenity/amenity.css</code>
+            </p>
+            <img src="repo/guide.gif" alt="Gif showing how to use link">
+        </section>
+
+        <footer>
+            Theme and website are fully 
+            <a href="https://github.com/nuleftus/amenity">open-source</a> 
+            and 
+            <a href="https://github.com/nuleftus/amenity/blob/main/LICENSE">licensed under MIT</a>
+        </footer>
+    </main>
+</body>
+</html>
