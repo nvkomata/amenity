@@ -58,6 +58,16 @@ body [role="dialog"] [class*="roles__"] {
     margin: 0.2em;
 }
 
+/*tooltips + toolbar*/
+[class^="layerContainer_"]>div, [class^="layerContainer_"] [class^="tooltip_"] {
+    padding: 0.3em;
+    border-radius: 1em;
+}
+[class^="layerContainer_"] [id="slate-toolbar"] button {
+    border-radius: 1em;
+    padding: 0;
+}
+
 /*channel text area*/
 form [class*="button_"] {
     padding: 2px 16px;
