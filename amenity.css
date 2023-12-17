@@ -8,6 +8,7 @@ amenity
     --radius-xs: 0.75em;
 }
 
+/*settings*/
 [aria-label="User Settings"] [class^="info__"] > span:last-child::after {
     content: "\A\AThank you for \A using Amenity! \A\A by nuleftus";
     white-space: pre;
@@ -22,6 +23,9 @@ amenity
 }
 [aria-label="User Settings"] [class^="info__"]>span {
     color: black !important
+}
+[aria-label="User Settings"] [class*="selected__"] {
+    box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0.1);
 }
 
 /*modals/popups*/
@@ -43,6 +47,21 @@ body [role="dialog"] [class*="roles__"] {
 [role="dialog"] [class*="root"] [class*="header__"] {
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
+}
+
+/*popouts (e.g. search in messages)*/
+
+[id^="popout_"] [aria-label="Close"], 
+[id^="popout_"] [aria-label="Filter"],
+[id^="popout_"] [aria-label="More"] {
+    padding: 0;
+}
+
+[role="listbox"]:has([aria-labelledby^="SEARCH"]) {
+    border-radius: 1em;
+}
+[role="listbox"]:has([aria-labelledby^="SEARCH"]) div[class^="option"] {
+    border-radius: 0.75em;
 }
 
 /*buttons in general*/
