@@ -58,6 +58,10 @@ body [role="dialog"] [class*="roles__"] {
     margin: 0.2em;
 }
 
+[class*="iconButton__"] {
+    padding: 0;
+}
+
 /*tooltips + toolbar*/
 [class^="layerContainer_"]>div, [class^="layerContainer_"] [class^="tooltip_"] {
     padding: 0.3em;
@@ -192,6 +196,9 @@ form div[class^="wrapper"], form div[class^="channelTextArea__"]>div {
 }
 
 /*user panel / controls*/
+[aria-label="User area"] {
+    padding: 0.35em 0;
+}
 [aria-label="User area"] [class*="horizontal"] [type="button"] {
     border-radius: 2em;
 }
@@ -276,5 +283,20 @@ aside[class^="membersWrap"]>div {
     border-radius: 1em;
 }
 [aria-label="Members"] [aria-selected="true"]>div {
+    box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0.1);
+}
+
+div[class^="membersWrap"] {
+    background-color: var(--background-tertiary);
+}
+div[class^="membersWrap"]>div {
+    border-top-left-radius: 0.75em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+div[class^="membersWrap"] div[class^="member_"]>div {
+    border-radius: 1em;
+}
+div[class^="membersWrap"] [aria-selected="true"]>div {
     box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0.1);
 }
