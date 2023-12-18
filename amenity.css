@@ -40,11 +40,11 @@ body [role="dialog"] [class*="roles__"] {
     border-radius: 0;
     border: none;
 }
-[role="dialog"] [class*="root"] [class*="footer__"] {
+[role="dialog"] [class*="root"]>[class*="footer__"] {
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
 }
-[role="dialog"] [class*="root"] [class*="header__"] {
+[role="dialog"] [class*="root"]>[class*="header__"] {
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
 }
