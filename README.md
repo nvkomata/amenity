@@ -1,5 +1,9 @@
+<div align="center">
+
 # Amenity
-Making Discord more comfortable with theming!
+Modernising Discord with theming.
+
+</div>
 
 ## Contributing
 Found a bug? Have a suggestion?
