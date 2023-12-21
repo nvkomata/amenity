@@ -34,7 +34,6 @@ amenity
 }
 [role="dialog"] [class*="root"] {
     border-radius: 2em;
-    /*border: 1px solid rgba(224, 224, 224, 0.05);*/
 }
 body [role="dialog"] [class*="roles__"] {
     border-radius: 0;
@@ -47,6 +46,16 @@ body [role="dialog"] [class*="roles__"] {
 [role="dialog"] [class*="root"]>[class*="header__"] {
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
+}
+
+[aria-label="Set a custom status"]>div[class*="root_"] {
+    padding: 0;
+}
+[aria-label="Set a custom status"]>div[class*="root_"] button {
+    padding: 0;
+}
+[aria-label="Set a custom status"]>div[class*="root_"] [aria-label="Close"] {
+    padding: 1em;
 }
 
 /*popouts (e.g. search in messages)*/
@@ -62,6 +71,13 @@ body [role="dialog"] [class*="roles__"] {
 }
 [role="listbox"]:has([aria-labelledby^="SEARCH"]) div[class^="option"] {
     border-radius: 0.75em;
+}
+
+[role="listbox"] {
+    border-radius: 1em;
+}
+div[id*="popout_"]:has([role="listbox"]) {
+    padding: 0.3em 0;
 }
 
 /*buttons in general*/
