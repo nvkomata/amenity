@@ -133,6 +133,12 @@ form div[class^="wrapper"], form div[class^="channelTextArea__"]>div {
     box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0.1);
 }
 
+form div[class^="channelTextArea__"]>div[class*="autocomplete_"] {
+    border-radius: 1em;
+    padding: 0.5em;
+    border: solid 1px rgba(128, 128, 128, 0.2);
+}
+
 /*sidebar items in settings*/
 [aria-label="User Settings"]>[class*="item__"], [dir="ltr"] [class^="sidebar__"] [role="tablist"]>[class*="item__"] {
     border-radius: 1em;
@@ -265,6 +271,14 @@ body [class*="body"] [class="vc-uvs-modal-margin"] {
 
 [class^="userProfileModalInner__"] [role="tablist"] [role="tab"] {
     height: 2.5em;
+}
+
+/*user profile popouts*/
+[class^="userPopoutOuter_"], [class^="userPopoutOuter_"]>div {
+    border-radius: 1em;
+}
+[class^="userPopoutOuter_"]>div [class^="bannerSVGWrapper__"], [class^="userPopoutOuter_"]>div:before {
+    border-radius: 0.75em;
 }
 
 /*channels in sidebar*/
