@@ -39,7 +39,7 @@ body [role="dialog"] [class*="roles__"] {
     border-radius: 0;
     border: none;
 }
-[role="dialog"] [class*="root"]>[class*="footer__"] {
+[role="dialog"] [class*="root"]>[class*="footer__"], [role="dialog"] [class*="root"]>div>div>div>[class*="footer__"] {
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
 }
