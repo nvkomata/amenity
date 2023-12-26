@@ -249,9 +249,8 @@ form div[class^="channelTextArea__"]>div[class*="autocomplete_"] {
 }
 [aria-label="User area"] [aria-label="Set Status"] {
     border-radius: 1.75em;
-}
-[aria-label="User area"] [aria-label="Set Status"] [class*="avatar_"] {
-    margin-left: 3px;
+    padding-left: 6px;
+    margin-right: 6px;
 }
 
 /*user profile modals*/
