@@ -10,7 +10,7 @@ amenity
 
 /*settings*/
 [aria-label="User Settings"] [class^="info__"] > span:last-child::after {
-    content: "\A\AThank you for \A using Amenity! \A\A by nuleftus";
+    content: "\A\AThank you for \A using Amenity! \A\A by nvkomata";
     white-space: pre;
     text-transform: none;
     font-size: 1.5em;
