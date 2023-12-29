@@ -384,14 +384,13 @@ aside[class^="profilePanel__"]>div>[class^="userPanel"]::before {
     border-top-left-radius: 1em;
 }
 
-[class*="barBase__"] {
+[class*="newMessagesBar__"] {
     border-radius: 0 0 0.75em 0.75em;
     top: 53px;
-    backdrop-filter: blur(1em);
     opacity: 1;
     transition: all .15s ease-out;
 }
-[class*="barBase__"]:hover {
+[class*="newMessagesBar__"]:hover {
     box-shadow: 0 0 10px var(--brand-experiment);
 }
 
