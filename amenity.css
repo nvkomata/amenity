@@ -394,7 +394,6 @@ aside[class^="profilePanel__"]>div>[class^="userPanel"]::before {
     box-shadow: 0 0 10px var(--brand-experiment);
 }
 
-
 section[role="navigation"], section[class^="headerBar_"], div[class^="shop_"]>section {
     height: 54px;
 }
@@ -413,4 +412,8 @@ section[role="navigation"], section[class^="headerBar_"], div[class^="shop_"]>se
 div[class^="shop_"]>div[class*="scroller"],
 div[class^="applicationStore_"]>div>div[class*="scroller"] {
     padding-top: 1.5em;
+}
+
+[aria-label="Friends"]>[role="navigation"] {
+    background: linear-gradient(90deg, var(--bg-overlay-2,var(--__header-bar-background)) 50%, var(--background-tertiary) 95%);
 }
