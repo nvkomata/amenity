@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name           Amenity
+@namespace      github.com/nvkomata/amenity
+@version        1.0
+@description    modernising Discord.
+@author         nvkomata
+@updateURL      https://nvkomata.github.io/amenity/amenity.user.css
+@preprocessor   stylus
+==/UserStyle== */
+
+@-moz-document domain("discord.com"){@import url('https://nvkomata.github.io/amenity/amenity.css');}
