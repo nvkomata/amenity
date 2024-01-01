@@ -22,7 +22,7 @@ Or click below to install in browser with the Stylus extension;
 ## A little tip for instant improvement
 Try putting this in your quickcss!
 
-```cs
+```css
 * {
     background: linear-gradient(to bottom, #5ccdfa10, #5ccefa10 20%, #f6a8b710 20%, #f6a8b710 40%, #ffffff10 40%, #ffffff10 60%, #f6a8b710 60%, #f6a8b710 80%, #5ccefa10 80%, #5ccefa10);
     background-position: center center;
